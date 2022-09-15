@@ -1,0 +1,44 @@
+body {
+    background-color: #6C4EE2;
+}
+
+h3{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10%;
+    color: #fdcb5d;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+hr {
+    width: 100px;
+    border: 2px solid #ffd57b;
+    border-radius: 5px;
+  }
+
+.produtos {
+    margin-left: 12%;
+    text-align: center;
+    margin-top: 1%;
+    display: flex;
+}
+
+.card{
+    border-radius: 2%;
+    transition: all .2s ease-in-out;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+.btn-outline-warning{
+    width: 150px;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #6C4EE2;
+}
+
+.btn-outline-warning:hover{
+    color: #f1ee16;
+    background-color: #6C4EE2;
+}
